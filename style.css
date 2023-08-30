@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+html {
+    background-image: linear-gradient(to right, #0099ff, #1900ff);
+    margin: 0;
+    padding: 0;
+}
+
+.custom-shape-divider-bottom-1693348672 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1693348672 svg {
+    position: relative;
+    display: block;
+    width: calc(129% + 1.3px);
+    height: 154px;
+}
+
+.custom-shape-divider-bottom-1693348672 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.texto1 {
+    color: rgb(71, 71, 71);
+    position: absolute;
+    font-size: 80px;
+    text-align: center;
+    align-items: center;
+    right: 600px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.texto1s {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 80px;
+    text-align: center;
+    align-items: center;
+    right: 595px;
+    top: 5px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.lower {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    right: 590px;
+    top: 150px;
+    font-family: 'Russo One', sans-serif;
+}
+
+button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #0099ff;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    position: absolute;
+    top: 400px;
+    right: 900px;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+
+.imgtop {
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    right: 180px;
+    top: 150px;
+}
